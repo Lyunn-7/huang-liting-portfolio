@@ -14,7 +14,7 @@ dist-ssr
 *.log
 
 # redundant nested copy (accidental cp -R artifact, not part of this site)
-/mindloop-landing/
+mindloop-landing
 
 # vite temp artifacts
 vite.config.ts.timestamp-*.mjs
