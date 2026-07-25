@@ -53,13 +53,13 @@ export function Contact() {
             <Mail size={16} />
             1945807123@qq.com
           </a>
-          <a
-            href="tel:18028436043"
-            className="liquid-glass inline-flex items-center gap-2 rounded-lg px-8 py-3.5 text-sm font-medium text-foreground transition-transform hover:scale-105"
+          <span
+            className="liquid-glass inline-flex cursor-default items-center gap-2 rounded-lg px-8 py-3.5 text-sm font-medium text-foreground"
+            title="手机号已打码保护，如需电话联系请先邮件沟通"
           >
             <Phone size={16} />
-            18028436043
-          </a>
+            180****6043
+          </span>
         </motion.div>
       </div>
     </section>
