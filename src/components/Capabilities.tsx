@@ -10,23 +10,23 @@ type Pillar = {
 const pillars: Pillar[] = [
   {
     no: "01",
-    title: "用户研究",
-    desc: "420+ 真实客户接触沉淀画像，把模糊诉求拆成可定义、可验证的问题。",
+    title: "内容策划",
+    desc: "爆款选题挖掘、爆品筛选与内容定位，输出「脚本—拍摄—剪辑—发布」全流程内容。",
   },
   {
     no: "02",
-    title: "内容策划",
-    desc: "把专业的金融概念翻译成小白语言，覆盖从创意、脚本到落地的内容生产。",
+    title: "账号操盘",
+    desc: "小红书女装账号 0→1 冷启动，3 个月涨粉 1 万+，驱动月销售额 150 万。",
   },
   {
     no: "03",
-    title: "AI 产品化",
-    desc: "用 Codex / workbuddy / Coze / Trae 把运营 SOP 做成可运行的桌面软件。",
+    title: "数据复盘",
+    desc: "跟踪曝光、互动、转化等核心数据，持续优化选题、发布节奏与投放策略。",
   },
   {
     no: "04",
-    title: "数据复盘",
-    desc: "以数据驱动迭代：老客户复购率约 85%，用复盘闭环持续优化路径。",
+    title: "AI 提效",
+    desc: "用 Coze / WorkBuddy / Codex 辅助文案、脚本与出图，单条内容产出时长压缩约 40%。",
   },
 ];
 
@@ -47,9 +47,9 @@ export function Capabilities() {
           {...fadeUp(0.1)}
           className="mt-4 max-w-3xl text-4xl font-medium tracking-[-1px] text-foreground md:text-5xl"
         >
-          不止做运营，
+          不止做内容，
           <br />
-          也把 <span className="font-serif italic">方法</span> 变成系统。
+          也把内容做成 <span className="font-serif italic">增长</span>。
         </motion.h2>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

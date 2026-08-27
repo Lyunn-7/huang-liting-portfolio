@@ -35,10 +35,10 @@ function CountUp({
 }
 
 const stats = [
-  { to: 420, suffix: "+", label: "真实接触客户" },
-  { to: 180, suffix: "万+", label: "年度累计销售额" },
-  { to: 85, suffix: "%", label: "老客户复购率" },
-  { to: 500, suffix: "+", label: "银行资料整理归档" },
+  { to: 1, suffix: "万+", label: "3 个月涨粉（小红书 0→1）" },
+  { to: 150, suffix: "万", label: "月销售额（内容驱动）" },
+  { to: 85, suffix: "%", label: "老客户复购率（私域运营）" },
+  { to: 40, suffix: "%", label: "单条内容产出提效（AI）" },
 ];
 
 export function Results() {

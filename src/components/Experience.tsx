@@ -12,40 +12,51 @@ type Item = {
 
 const items: Item[] = [
   {
+    stage: "Stage 04 · 内容操盘手",
+    period: "2026.3 — 至今",
+    org: "小红书女装账号 · 跨境增长运营工作台",
+    role: "新媒体运营 / 多平台内容运营",
+    points: [
+      "小红书女装账号 0→1：3 个月涨粉 1 万+，内容驱动月销售额 150 万",
+      "主导爆款选题、爆品筛选与「脚本—拍摄—剪辑—发布」全流程，跑通转化链路",
+      "参与跨境多平台内容闭环，用 Coze / WorkBuddy / Codex 等 AI 工具提效约 40%",
+    ],
+    growth: "把过去的用户、内容、数据经验，拧成了「内容驱动增长」这一件事。",
+  },
+  {
     stage: "Stage 03 · 商业一线",
     period: "2025.3 — 2026.2",
     org: "徐闻县万顺种植专业合作社",
     role: "销售主管",
     points: [
-      "带领 5 人销售团队，负责本地及周边地区产品渠道销售与订单管理",
-      "管理客户 20+ 家（批发收购 / 社区团购 / 餐饮采购），老客户复购率约 85%",
-      "月均订单 100+ 单，年度累计销售额约 180+ 万",
+      "20+ 家批发/社区团购/餐饮客户分层标签体系，老客户复购率约 85%",
+      "主导朋友圈/社群营销内容，推动月均订单 100+ 单、年度累计销售额约 180 万",
+      "基于订单与转化数据迭代内容策略，输出销售/售后/协作 SOP，带 5 人团队",
     ],
-    growth: "理解客户与成交——知道真实的生意是怎么跑起来的。",
+    growth: "学会私域运营与内容转化——知道用户为什么愿意下单。",
   },
   {
     stage: "Stage 02 · 金融一线",
     period: "2024.10 — 2025.1",
     org: "中国邮政储蓄银行",
-    role: "客户部实习生",
+    role: "实习生",
     points: [
-      "客户档案整理、台账更新与归档材料打码排序，累计整理资料 500+ 份",
-      "系统观察不同客户类型（储蓄 / 定期 / 基金）的资料结构与产品选择差异",
-      "沉淀进 FirstBucket 三桶模型需求",
+      "累计整理客户档案 500+ 份，完成文书处理与材料录入，工作细致",
+      "系统观察储蓄 / 定期 / 基金客户的资料结构与产品选择差异",
     ],
-    growth: "看懂不同客户的产品选择差异——沉淀出三桶模型的最初需求。",
+    growth: "沉淀用户分层与需求洞察的意识。",
   },
   {
     stage: "Stage 01 · 组织协作",
     period: "2021.10 — 2022.6",
-    org: "广东理工学院",
+    org: "广东理工学院 学生会",
     role: "副部长",
     points: [
-      "带团队 8 人，负责部门年度文娱工作规划与落地执行",
-      "联合策划 3 场校级大型活动：校园音乐节（1500+）、迎新舞蹈晚会（800+）、院级主题晚会（500+）",
-      "组织内部培训 6 次，部门活动交付效率提升约 30%",
+      "带 8 人团队落地 3 场校级大型活动：音乐节（1500+）、迎新晚会（800+）、院级晚会（500+）",
+      "负责活动预热与传播：海报、推文、社群多渠道触达，提升参与度",
+      "组织内部培训 6 次，沉淀策划/宣传/场务 SOP，交付效率提升约 30%",
     ],
-    growth: "带团队、做活动——学会把一件模糊的事落地做成。",
+    growth: "第一次做「宣传运营」——海报、推文、社群，都是内容的雏形。",
   },
 ];
 
@@ -66,7 +77,7 @@ export function Experience() {
           {...fadeUp(0.1)}
           className="mt-4 text-4xl font-medium tracking-[-1px] text-foreground md:text-5xl"
         >
-          从 <span className="font-serif italic">一线</span> 到产品，
+          从 <span className="font-serif italic">宣传</span> 到内容，
           <br />
           是一条持续向上的成长曲线
         </motion.h2>
@@ -107,10 +118,10 @@ export function Experience() {
           {...fadeUp(0.5)}
           className="mt-12 max-w-2xl text-base leading-relaxed text-muted-foreground"
         >
-          校园让我学会<span className="text-foreground">组织</span>，
-          银行让我理解<span className="text-foreground">金融</span>，
-          一线销售让我理解<span className="text-foreground">客户</span>
-          ——而现在，我想把这些，做成被更多人用到的产品。
+          校园宣传让我第一次碰<span className="text-foreground">内容</span>，
+          银行让我懂<span className="text-foreground">用户分层</span>，
+          销售让我懂<span className="text-foreground">转化</span>
+          ——而现在，我把它们都做成了「内容驱动增长」。
         </motion.p>
       </div>
     </section>

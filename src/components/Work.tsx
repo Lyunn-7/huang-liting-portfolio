@@ -3,44 +3,42 @@ import { ArrowRight, Check } from "lucide-react";
 import { fadeUp } from "@/lib/motion";
 
 const didList = [
-  "定义 6 类用户画像，覆盖不同收入层级与风险偏好",
-  "把 12 条主流财富法则转译为小白看得懂的语言",
-  "设计「三桶模型」信息架构与 What-if 推演路径",
-  "用 AI 工具协作完成界面搭建与逻辑实现",
+  "账号操盘：小红书女装账号 0→1 内容运营，3 个月涨粉 1 万+",
+  "内容策划：爆款选题挖掘、爆品筛选，输出「脚本—实景拍摄—后期剪辑—发布」全流程",
+  "数据复盘：跟踪曝光、互动、转化核心数据，持续优化选题与发布策略",
+  "转化承接：维护评论区与私信，参与粉丝社群促活与下单转化",
 ];
 
-const results = ["6 类用户画像", "12 条法则转译", "3 桶分桶模型", "What-if 推演"];
-
-const process = ["用户画像", "需求拆解", "三桶建模", "内容转译", "数据复盘"];
-
-const buckets = [
-  { name: "日常开销", pct: 50, note: "随取随用" },
-  { name: "应急储备", pct: 30, note: "3–6 个月" },
-  { name: "长期增值", pct: 20, note: "复利滚存" },
+const results = [
+  "3 个月涨粉 1 万+",
+  "月销售额 150 万",
+  "跑通「触达→互动→下单」",
+  "沉淀内容 SOP",
 ];
 
-const humanSplit = [
-  "产品定义",
-  "用户研究",
-  "信息架构",
-  "内容策划",
-  "规则设计",
-  "验收迭代",
+const process = ["选爆品", "做内容", "测投放", "复盘迭代"];
+
+const metrics = [
+  { name: "笔记曝光", pct: 92 },
+  { name: "互动（赞藏评）", pct: 68 },
+  { name: "进店 / 转化", pct: 41 },
 ];
-const aiSplit = ["代码实现", "界面生成", "调试修复", "重构优化"];
+
+const humanSplit = ["选题策划", "脚本撰写", "实景拍摄", "数据复盘", "私信社群转化"];
+const aiSplit = ["文案润色", "爆文拆解", "封面出图", "商品图精修"];
 
 const secondary = [
   {
-    name: "多市场行情观察",
-    role: "产品定位 · 散户 / 入门用户",
-    desc: "面向 A股 / 港股 / 美股 / ETF / 期货的多市场桌面观察工具，把复杂行情简化为「打开电脑看一眼就知道今天怎么样」。",
-    tags: ["信息架构", "降认知负担", "一句话哲学"],
+    name: "跨境品牌海外增长运营工作台",
+    role: "多平台内容运营 · 2026.3 – 至今",
+    desc: "在 mentor 指导下以 vibe coding 参与搭建覆盖海外 6 大社媒 + 国内 2 平台 + 独立站的「内容→合规→发布→复盘」闭环；负责内容日历字段设计与社媒数据看板，沉淀评论管理 SOP 与转化归因（UTM / ROAS）。",
+    tags: ["多平台运营", "内容产品化", "AI 提效"],
   },
   {
-    name: "跨境增长运营工作台",
-    role: "产品定位 · DTC / 跨境品牌",
-    desc: "覆盖海外 6 大社媒 + 国内 2 大平台 + 独立站，把散落 8 个平台的运营流程整合进一个中枢，支撑运营闭环。",
-    tags: ["运营 SOP", "增长闭环", "数据看板"],
+    name: "农产品私域增长运营",
+    role: "销售主管 · 2025.3 – 2026.2",
+    desc: "为 20+ 家批发 / 社区团购 / 餐饮客户建立分层标签体系，策划朋友圈与社群营销内容，推动月均订单 100+ 单、老客户复购率约 85%、年度累计销售额约 180 万，沉淀 C 端「触达→激活→转化」链路。",
+    tags: ["私域运营", "用户分层", "内容转化"],
   },
 ];
 
@@ -69,7 +67,7 @@ export function Work() {
           {...fadeUp(0.1)}
           className="mt-4 max-w-3xl text-4xl font-medium tracking-[-1px] text-foreground md:text-5xl"
         >
-          把想法，做成能 <span className="font-serif italic">跑起来</span> 的产品
+          把账号，从 <span className="font-serif italic">0</span> 做到能带货
         </motion.h2>
 
         {/* Flagship case study */}
@@ -84,13 +82,13 @@ export function Work() {
             <span className="text-xs text-muted-foreground">旗舰项目</span>
           </div>
           <h3 className="mt-5 text-3xl font-medium tracking-[-1px] text-foreground md:text-4xl">
-            个人财富分桶规划
+            小红书女装账号 0→1
             <span className="ml-3 align-middle font-serif text-lg italic text-muted-foreground">
-              FirstBucket
+              新媒体运营
             </span>
           </h3>
           <p className="mt-2 text-sm text-muted-foreground">
-            产品定位 · 0–3 年上班族的财富入门路径规划
+            项目周期 · 2026.3 – 至今
           </p>
 
           <div className="mt-10 grid gap-12 lg:grid-cols-2">
@@ -99,8 +97,8 @@ export function Work() {
               <div>
                 <SectionLabel>背景</SectionLabel>
                 <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                  0–3
-                  年上班族，薪资到账后最常问的是「到底该分几份、怎么分」。市面理财内容太专业，小白看不懂、更不敢用——我把它转译成一套看得懂、能推演、能反复用的路径。
+                  女装是小红书竞争最激烈的赛道之一，内容同质化严重。需要从零建立账号定位、内容体系与「内容
+                  → 转化」链路，在没有投放预算的前提下靠内容自然起量。
                 </p>
               </div>
 
@@ -137,41 +135,61 @@ export function Work() {
               </div>
             </div>
 
-            {/* Product mockup (CSS representation) */}
+            {/* Account dashboard mockup (CSS representation) */}
             <div>
-              <SectionLabel>产品界面 · 三桶模型</SectionLabel>
+              <SectionLabel>账号数据看板 · 示意</SectionLabel>
               <div className="mt-3 overflow-hidden rounded-2xl border border-border/60 bg-secondary/40">
                 <div className="flex items-center gap-1.5 border-b border-border/50 px-4 py-3">
                   <span className="h-2.5 w-2.5 rounded-full bg-border" />
                   <span className="h-2.5 w-2.5 rounded-full bg-border" />
                   <span className="h-2.5 w-2.5 rounded-full bg-border" />
                   <span className="ml-3 text-xs text-muted-foreground">
-                    FirstBucket · 桌面端
+                    小红书女装账号 · 近 3 个月
                   </span>
                 </div>
                 <div className="space-y-5 p-6">
-                  <div className="text-sm text-foreground/90">
-                    月薪到账后，这样分：
+                  <div className="grid grid-cols-3 gap-3 text-center">
+                    <div className="rounded-lg border border-border/50 bg-background/40 px-2 py-3">
+                      <div className="text-lg font-medium text-foreground">
+                        1万+
+                      </div>
+                      <div className="mt-0.5 text-xs text-muted-foreground">
+                        涨粉
+                      </div>
+                    </div>
+                    <div className="rounded-lg border border-border/50 bg-background/40 px-2 py-3">
+                      <div className="text-lg font-medium text-foreground">
+                        150万
+                      </div>
+                      <div className="mt-0.5 text-xs text-muted-foreground">
+                        月销售额
+                      </div>
+                    </div>
+                    <div className="rounded-lg border border-border/50 bg-background/40 px-2 py-3">
+                      <div className="text-lg font-medium text-foreground">
+                        0→1
+                      </div>
+                      <div className="mt-0.5 text-xs text-muted-foreground">
+                        冷启动
+                      </div>
+                    </div>
                   </div>
-                  {buckets.map((b) => (
-                    <div key={b.name}>
+                  {metrics.map((m) => (
+                    <div key={m.name}>
                       <div className="flex items-baseline justify-between text-sm">
-                        <span className="text-foreground/90">{b.name}</span>
-                        <span className="text-muted-foreground">
-                          {b.pct}% · {b.note}
-                        </span>
+                        <span className="text-foreground/90">{m.name}</span>
+                        <span className="text-muted-foreground">{m.pct}%</span>
                       </div>
                       <div className="mt-2 h-2.5 w-full overflow-hidden rounded-full bg-muted">
                         <div
                           className="h-full rounded-full bg-foreground/80"
-                          style={{ width: `${b.pct}%` }}
+                          style={{ width: `${m.pct}%` }}
                         />
                       </div>
                     </div>
                   ))}
                   <div className="rounded-lg border border-border/50 bg-background/40 px-4 py-3 text-xs leading-relaxed text-muted-foreground">
-                    What-if 推演：若每月多存 500 元，3 年后长期增值桶约多出
-                    1.9 万。
+                    转化链路：内容触达 → 用户互动 → 下单转化。
                   </div>
                 </div>
               </div>
@@ -180,7 +198,7 @@ export function Work() {
 
           {/* Process path */}
           <div className="mt-12">
-            <SectionLabel>流程路径</SectionLabel>
+            <SectionLabel>标准化工作逻辑</SectionLabel>
             <div className="mt-4 flex flex-wrap items-center gap-y-3">
               {process.map((p, i) => (
                 <span key={p} className="flex items-center">

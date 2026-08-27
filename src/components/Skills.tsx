@@ -2,19 +2,21 @@ import { motion } from "framer-motion";
 import { fadeUp } from "@/lib/motion";
 
 const skills = [
-  "互联网金融",
-  "用户研究",
-  "策划",
-  "电商运营",
-  "团队管理",
-  "GitHub",
-  "财务",
+  "内容运营",
+  "新媒体运营",
+  "用户运营",
+  "拍摄",
+  "剪辑",
   "文案",
-  "架构设计",
+  "策划",
   "数据分析",
+  "团队管理",
+  "产品运营",
 ];
 
-const certs = ["理财规划师", "普通话二级甲等", "大学英语四级"];
+const tools = ["剪映", "Canva", "美图设计室", "Coze", "WorkBuddy", "Codex", "Trae"];
+
+const certs = ["理财规划师培训类岗位证书", "大学英语四级", "普通话二级甲等"];
 
 export function Skills() {
   return (
@@ -28,7 +30,7 @@ export function Skills() {
             相关技能
           </p>
           <h2 className="mt-4 text-4xl font-medium tracking-[-1px] text-foreground md:text-5xl">
-            能 <span className="font-serif italic">落地</span> 的复合能力
+            能 <span className="font-serif italic">落地</span> 的内容能力
           </h2>
           <div className="mt-8 flex flex-wrap gap-3">
             {skills.map((s, i) => (
@@ -38,6 +40,21 @@ export function Skills() {
                 className="rounded-full border border-border px-4 py-2 text-sm text-foreground/90"
               >
                 {s}
+              </motion.span>
+            ))}
+          </div>
+
+          <p className="mt-10 text-xs uppercase tracking-[3px] text-muted-foreground">
+            常用工具
+          </p>
+          <div className="mt-4 flex flex-wrap gap-3">
+            {tools.map((t, i) => (
+              <motion.span
+                key={t}
+                {...fadeUp(0.2 + i * 0.05)}
+                className="liquid-glass rounded-full px-4 py-2 text-sm text-foreground/90"
+              >
+                {t}
               </motion.span>
             ))}
           </div>

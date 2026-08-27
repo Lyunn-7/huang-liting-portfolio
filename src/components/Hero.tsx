@@ -6,9 +6,9 @@ const COVER_VIDEO =
   "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_204221_5339e40b-e73d-4ab0-9c65-79c18c66fd50.mp4";
 
 const stats = [
-  { value: "420+", label: "真实接触客户" },
-  { value: "3 款", label: "可运行桌面软件" },
-  { value: "持证", label: "理财规划师" },
+  { value: "1万+", label: "3 个月涨粉" },
+  { value: "150万", label: "月销售额" },
+  { value: "40%", label: "AI 内容提效" },
 ];
 
 export function Hero() {
@@ -41,7 +41,7 @@ export function Hero() {
           {...fadeUp(0)}
           className="rounded-full border border-border/60 px-4 py-1.5 text-xs text-muted-foreground sm:text-sm"
         >
-          产品运营 · 互联网金融背景
+          新媒体运营 · 内容驱动增长
         </motion.span>
 
         <motion.h1
@@ -55,22 +55,22 @@ export function Hero() {
           {...fadeUp(0.2)}
           className="mt-3 font-serif text-2xl font-normal italic text-foreground/90 md:text-3xl"
         >
-          Shaping narratives, one pixel at a time.
+          Turning content into growth.
         </motion.p>
 
         <motion.p
           {...fadeUp(0.3)}
           className="mt-5 max-w-xl text-base text-muted-foreground md:text-lg"
         >
-          理财规划师持证，擅长以「用户画像 → 需求拆解 → 内容落地 →
-          数据复盘」推进产品工作，日常用 AI 工具提效。
+          互联网金融本科，1 年内容运营 + 团队管理经验。小红书女装账号 0→1
+          操盘手，熟悉小红书 / 抖音内容节奏，能独立完成「选题—脚本—拍摄—剪辑—发布—数据复盘」全链路。
         </motion.p>
 
         <motion.p
           {...fadeUp(0.35)}
           className="mt-4 text-xs uppercase tracking-[2px] text-muted-foreground"
         >
-          Base in 广东 · Available for 产品运营 / 运营助理（社招）
+          意向城市 深圳 · Available for 新媒体运营 / 内容运营（社招 · 期望 7-9k）
         </motion.p>
 
         <motion.div
