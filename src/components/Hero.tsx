@@ -41,7 +41,7 @@ export function Hero() {
           {...fadeUp(0)}
           className="rounded-full border border-border/60 px-4 py-1.5 text-xs text-muted-foreground sm:text-sm"
         >
-          新媒体运营 · 内容驱动增长
+          新媒体运营与产品运营 · 内容驱动增长
         </motion.span>
 
         <motion.h1
@@ -70,7 +70,7 @@ export function Hero() {
           {...fadeUp(0.35)}
           className="mt-4 text-xs uppercase tracking-[2px] text-muted-foreground"
         >
-          意向城市 深圳 · Available for 新媒体运营 / 内容运营（社招 · 期望 7-9k）
+          意向城市 深圳 · Available for 新媒体运营与产品运营 / 内容运营（社招 · 期望 7-9k）
         </motion.p>
 
         <motion.div

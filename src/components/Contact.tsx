@@ -39,7 +39,7 @@ export function Contact() {
           {...fadeUp(0.2)}
           className="mt-4 max-w-md text-muted-foreground"
         >
-          求职意向：新媒体运营 / 内容运营（社招 · 深圳 · 期望 7-9k）。期待一起把内容做成增长。
+          求职意向：新媒体运营与产品运营 / 内容运营（社招 · 深圳 · 期望 7-9k）。期待一起把内容做成增长。
         </motion.p>
 
         <motion.div

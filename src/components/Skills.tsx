@@ -3,7 +3,7 @@ import { fadeUp } from "@/lib/motion";
 
 const skills = [
   "内容运营",
-  "新媒体运营",
+  "新媒体运营与产品运营",
   "用户运营",
   "拍摄",
   "剪辑",

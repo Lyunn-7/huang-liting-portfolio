@@ -84,7 +84,7 @@ export function Work() {
           <h3 className="mt-5 text-3xl font-medium tracking-[-1px] text-foreground md:text-4xl">
             小红书女装账号 0→1
             <span className="ml-3 align-middle font-serif text-lg italic text-muted-foreground">
-              新媒体运营
+              新媒体运营与产品运营
             </span>
           </h3>
           <p className="mt-2 text-sm text-muted-foreground">

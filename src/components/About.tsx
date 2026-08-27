@@ -95,7 +95,7 @@ export function About() {
                 求职意向
               </div>
               <div className="mt-1 text-sm leading-relaxed text-foreground/90">
-                新媒体运营 / 内容运营
+                新媒体运营与产品运营 / 内容运营
                 <br />
                 社招 · 深圳 · 期望 7-9k
               </div>
